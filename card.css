@@ -16,6 +16,8 @@ h1 {
 h2 {
     margin: 0;
     font-weight: 100;
+    word-wrap: normal;
+    margin: 20px;
 }
 
 .card {
@@ -50,4 +52,10 @@ h2 {
 .contacts li a img:hover {
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
+}
+
+@media (max-width: 600px) {
+    .card{
+        width: 300px;
+    }
 }
